@@ -1,3 +1,5 @@
+-- pretty much copied from a haskell 98 tutorial
+
 quicksort [] = []
 quicksort (x:xs) = quicksort [ y | y <- xs, y < x ]
                 ++ [x]

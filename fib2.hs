@@ -1,4 +1,7 @@
 
+-- a faster fibonacci
+-- but I'm obviously missing lambdas
+
 fibo :: (Int, Int, Int) -> Int
 fibo (0, a, b) = a
 fibo (n, a, b) = fibo (n-1, a+b, a)

@@ -1,3 +1,7 @@
+
+-- this has some serious flaws, but I'm trying
+
+
 split1 :: (Char, String) -> String
 split1 (c, "") = ""
 split1 (c, (x:xs)) = if x == c then "" else [x] ++ split1(c, xs)
